@@ -12856,6 +12856,8 @@ a.text-dark:focus {
     rgba(118, 64, 153, 0.71),
     rgba(118, 64, 153, 0.78)
   );
+  --font-family-base:"Libre Franklin", sans-serif;
+  --font-family-serif:"Source Serif Pro", serif;
 }
 
 html {
@@ -12872,7 +12874,7 @@ html {
   margin: 0;
   padding: 0;
   /* font-family: "Hind", sans-serif; */
-  font-family: "Libre Franklin", sans-serif;
+  font-family:var(--font-family-serif)
 }
 
 * {
@@ -12902,14 +12904,14 @@ input,
 select {
   outline: none;
   /* font-family: "Hind", sans-serif; */
-  font-family: "Libre Franklin", sans-serif;
+  font-family: var(--font-family-serif)
 }
 
 button,
 .btn,
 select {
   cursor: pointer;
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font-family-base)
 }
 
 a,
@@ -12938,7 +12940,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Libre Franklin", sans-serif;
+  font-family: var(--font-family-base)
 }
 
 p {
@@ -14325,12 +14327,12 @@ button.owl-next {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/slider/image2.jpg) no-repeat center;
+  background: url(../images/slider/image3.jpg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/slider/image3.jpg) no-repeat center;
+  background: url(../images/slider/image2.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -14922,6 +14924,13 @@ button.owl-next {
 .w3l-features-1 .features {
   background: #222;
 }
+.w3l-features-1 .title {
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 .w3l-features-1 .features h5 {
   font-size: 20px;
   line-height: 30px;
@@ -15036,7 +15045,8 @@ button.owl-next {
 }
 
 .w3l-services2 .features-with-17_sur {
-  background: url(../images/ab-1.jpg) no-repeat;
+  /* background: url(../images/ab-1.jpg) no-repeat; */
+  background: url(../images/services/web-development.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -15273,9 +15283,9 @@ button.owl-next {
 }
 .w3l-features-8 .float-top img {
   border-radius: 4px;
-    height: 192px;
-    object-fit: cover;
-    width: 100%;
+  height: 192px;
+  object-fit: cover;
+  width: 100%;
 }
 .w3l-features-8 .float-top-1 h4 {
   font-size: 30px;
@@ -15309,7 +15319,8 @@ button.owl-next {
   /*-- customers4 block --*/
 }
 .w3l-customers-4 #customers4-block {
-  background: url(../images/ser-1.jpg) no-repeat center;
+  /* background: url(../images/ser-1.jpg) no-repeat center; */
+  background: url(../images/slider/image2.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15493,6 +15504,7 @@ button.owl-next {
   border: 1px solid #f1f4f7;
   padding: 30px;
   border-radius: 4px;
+  height: 100%;
 }
 .news-1 .blog-grids a img {
   border-radius: 4px;
@@ -15534,6 +15546,7 @@ button.owl-next {
   overflow: hidden;
   margin: 0px;
   border-radius: 4px;
+  height: 162px;
 }
 .news-1 .blog-grid img {
   display: block;
@@ -15601,7 +15614,8 @@ button.owl-next {
 }
 
 .w3l-footer-29-main .footer-29 {
-  background: url(../images/3.jpg) no-repeat 0px 0px;
+  /* background: url(../images/3.jpg) no-repeat 0px 0px; */
+  background: url(../images/services/logo-design.jpg) no-repeat 0px 0px;
   background-size: cover;
   padding: 4rem 0px;
   background-attachment: fixed;
@@ -16096,7 +16110,7 @@ button.owl-next {
 }
 
 .w3l-about .skills-bars {
-  background: url(../images/5.jpg) no-repeat;
+  background: url(../images/services/web-design.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -16481,7 +16495,7 @@ button.owl-next {
   overflow: hidden;
   background-color: #000;
   opacity: 1;
-  font-family: sans-serif;
+  font-family: var(--font-family-serif)
   cursor: pointer;
   transition: opacity 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -16857,7 +16871,7 @@ button.owl-next {
   vertical-align: -webkit-baseline-middle;
 }
 .w3l-feature-2 .grid.top-bottom {
-  background: url(../images/ser-2.jpg) no-repeat;
+  background: url(../images/slider/image1.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -17208,7 +17222,7 @@ button.owl-next {
 
 .w3l-about-breadcrum .breadcrum-bg {
   background-size: cover;
-  background-image: var(--linear-bg), url(../images/2.jpg);
+  background-image: var(--linear-bg), url(../images/slider/image2.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -17261,7 +17275,7 @@ button.owl-next {
 
 .w3l-contact-breadcrum .breadcrum-bg {
   background-size: cover;
-  background-image: var(--linear-bg), url(../images/5.jpg);
+  background-image: var(--linear-bg), url(../images/slider/image3.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -17314,7 +17328,7 @@ button.owl-next {
 
 .w3l-service-breadcrum .breadcrum-bg {
   background-size: cover;
-  background-image: var(--linear-bg), url(../images/ab-1.jpg);
+  background-image: var(--linear-bg), url(../images/slider/image1.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
