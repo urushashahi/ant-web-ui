@@ -12874,7 +12874,7 @@ html {
   margin: 0;
   padding: 0;
   /* font-family: "Hind", sans-serif; */
-  font-family:var(--font-family-serif)
+  font-family:var(--font-family-base)
 }
 
 * {
@@ -12904,7 +12904,7 @@ input,
 select {
   outline: none;
   /* font-family: "Hind", sans-serif; */
-  font-family: var(--font-family-serif)
+  font-family: var(--font-family-base)
 }
 
 button,
@@ -14944,6 +14944,7 @@ button.owl-next {
   font-size: 16px;
   color: #aaa;
   line-height: 24px;
+  font-family: var(--font-family-serif);
 }
 .w3l-features-1 .icon span.fa {
   font-size: 36px;
@@ -14976,6 +14977,7 @@ button.owl-next {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+  font-family: var(--font-family-serif);
   line-height: 28px;
   color: var(--text-color);
   margin: 30px 0;
@@ -15280,6 +15282,7 @@ button.owl-next {
   font-size: 16px;
   line-height: 24px;
   color: var(--text-color);
+  font-family: var(--font-family-serif);
 }
 .w3l-features-8 .float-top img {
   border-radius: 4px;
@@ -16495,7 +16498,7 @@ button.owl-next {
   overflow: hidden;
   background-color: #000;
   opacity: 1;
-  font-family: var(--font-family-serif)
+  font-family: var(--font-family-serif);
   cursor: pointer;
   transition: opacity 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -16913,6 +16916,7 @@ button.owl-next {
 .w3l-feature-2 .three-grids-columns p {
   margin: 12px 0 0px;
   font-size: 16px;
+  font-family: var(--font-family-serif);
   line-height: 24px;
   color: var(--white-color);
   opacity: 0.8;
